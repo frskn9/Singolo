@@ -17,7 +17,7 @@ body {
 }
 
 .portfolio {
-   margin-bottom: 0px;
+   padding-bottom: 1px;
    background-color: #2d303a;
 }
 
@@ -34,7 +34,7 @@ body {
 .portfolio p {
     color: #666d89;
     font-size: 18px;
-    padding-top: 22.5px;
+    padding-top: 22px;
     letter-spacing: -0.2px;
     margin-bottom: 14.5px;
     margin-left: 40px;
@@ -42,8 +42,7 @@ body {
 
 .portfolio button {
     display: inline-block;
-    margin-right: 6.5px; /*
-    padding: 2px 6px 4px 7px; */
+    margin-right: 6.5px; 
     background: none;
     font-size: 12px;
     color: #767e9e;
@@ -58,8 +57,7 @@ body {
 
 }
 
-.portfolio button:nth-of-type(2) { /*
-    padding-right: 5.5px; */
+.portfolio button:nth-of-type(2) { 
     margin-left: 1px;
     padding-left: 1px;
     width: 78px;
@@ -84,7 +82,7 @@ body {
 }
 
 .gallery {
-    padding: 18.5px 0 71.5px 0;
+    padding: 18px 0 72px 0;
     display: grid;
     grid-template-columns: 220px 220px 220px 220px;
     gap: 20px;
@@ -168,7 +166,7 @@ body {
 }
 
 .wrapper-10 {
-    height: 188px;
+    height: 187px;
     background-image: url("./assets/pic10.png");
     overflow: hidden;
     background-position: -141px -113px;
@@ -176,7 +174,7 @@ body {
 }
 
 .wrapper-11 {
-    height: 188px;
+    height: 187px;
     background-image: url("./assets/pic11.png");
     overflow: hidden;
     background-position: -144px -175px;
@@ -198,11 +196,12 @@ body {
 
 .about-us {
     background-color: #f2f2f2;
+    color: #797f97;
 }
 
 .about__title {
     font-size: 29px;
-    letter-spacing: 1.1px;
+    letter-spacing: 1px;
     font-weight: bolder;
     padding-top: 60px;
     margin-left: 41px;
@@ -215,7 +214,6 @@ body {
     letter-spacing: -0.06px;
     font-size: 18px;
     line-height: 30px;
-    color: red;
 }
 
 .about__subtitle__compr {
@@ -229,20 +227,15 @@ body {
     gap: 18px;
 }
 
-.about:last-child {
-}
-
 .about__item {
-    margin-bottom: 1000px;
-    color: #797f97;
+    padding-bottom: 140px;
 }
 
 .about__item h3 {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .about__item p {
-    color: red;
     font-weight: 400;
     margin-top: 8px;
     font-size: 12px;
@@ -255,4 +248,13 @@ body {
 
 .about__item .lttr-sp {
     letter-spacing: 0.1px;
+}
+
+.about-us .about__item:nth-of-type(2) h3 {
+    letter-spacing: -0.3px;
+}
+
+.about__item .about__logo {
+    margin-top: 23px;
+    margin-right: 3px;
 }
